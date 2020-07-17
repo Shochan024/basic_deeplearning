@@ -32,6 +32,11 @@
 <a id="neuralnet"></a>
 # 3. ニューラルネットワーク
 本講義の本題、ニューラルネットワークについて学びます。パーセプトロンとの違いや、その演算方法、実装方法を学びます。機械学習を学ぶ上では避けて通れない線形代数学の復習にも軽く触れておきます
+<div align="center">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/03/dot.png" alt="パーセプトロン" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/03/neuralnet.png" alt="多層パーセプトロン" width="400px">
+</div>
+
 <a id="learningalg"></a>
 # 4. 学習アルゴリズム
 機械学習における”学習”の実態部分について学びます。データとモデルによる予測結果のギャップを定量化し、その差を最小化する最適化問題を考えます。最適化問題を解く際に登場する微分法の確認もしながらゆっくりと学んでいきましょう
