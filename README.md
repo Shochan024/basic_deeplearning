@@ -69,5 +69,5 @@
 前回は、多Classで特徴量の多いテーマを扱いました。そう言った性質から、学習にかなりの時間を要すること、汎化性能の高いモデルがなかなかできにくいこと、似たような分類モデルの横展開のしにくさを感じた方は多いと思います。今回は、こう言った問題を緩和する方法を学びます
 
 <div align="center">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/09/teni.png" alt="転移学習" width="400px" style="object-fit:cover;">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/09/teni.png" alt="転移学習" width="600px" style="object-fit:cover;">
 </div>
