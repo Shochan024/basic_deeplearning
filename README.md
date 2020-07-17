@@ -13,25 +13,25 @@
 # 1. パーセプロトン
 
 <a id="activation"></a>
-2. 活性化関数
+# 2. 活性化関数
 
 <a id="neuralnet"></a>
-3. ニューラルネットワーク
+# 3. ニューラルネットワーク
 
 <a id="learningalg"></a>
-4. 学習アルゴリズム
+# 4. 学習アルゴリズム
 
 <a id="examples"></a>
-5. 具体的な例
+# 5. 具体的な例
 
 <a id="backpropergation"></a>
-6. 誤差逆伝播法
+# 6. 誤差逆伝播法
 
 <a id="convolution_and_pooling"></a>
-7. 畳み込み層/Pooling層
+# 7. 畳み込み層/Pooling層
 
 <a id="general_image_class"></a>
-8. 一般画像の分類
+# 8. 一般画像の分類
 
 <a id="fine_tuning"></a>
-9. 転移学習/Fine Tuning
+# 9. 転移学習/Fine Tuning
