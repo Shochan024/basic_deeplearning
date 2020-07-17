@@ -10,7 +10,7 @@
 9. [転移学習/Fine Tuning](#fine_tuning)
 
 <a id="perceptron"></a>
-1. パーセプロトン
+# 1. パーセプロトン
 
 <a id="activation"></a>
 2. 活性化関数
