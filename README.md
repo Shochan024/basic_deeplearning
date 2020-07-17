@@ -63,6 +63,9 @@
 <a id="general_image_class"></a>
 # 8. 一般画像の分類
 今回は、文字ではなく一般的な画像の分類を学んでいきます。一般的な画像は文字データよりも特徴量が多く、Class数も多いので学習には相応の工夫が必要です。その工夫については次回に詳しく学ぶとして、今回は深いことは考えずこの問題を扱ってみましょう
+<div align="center">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/08/img.png" alt="一般画像/ImageNet" width="600px" style="object-fit:cover;">
+</div>
 
 <a id="fine_tuning"></a>
 # 9. 転移学習/Fine Tuning
