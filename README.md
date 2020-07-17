@@ -21,6 +21,14 @@
 <a id="activation"></a>
 # 2. 活性化関数
 ニューロンから次のニューロンに信号が伝達することを発火と言います。活性化関数は、この発火を数学的にモデル化した関数になります。機械学習には欠かせない活性化関数について、様々な切り口で学んでいきます
+<div align="center">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/activation.png" alt="活性化関数" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/activation_prime" alt="活性化関数導関数" width="400px">
+</div>
+<div>
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/tanh_prime.png" alt="tanh導関数導出過程" width="100%">
+</div>
+
 <a id="neuralnet"></a>
 # 3. ニューラルネットワーク
 本講義の本題、ニューラルネットワークについて学びます。パーセプトロンとの違いや、その演算方法、実装方法を学びます。機械学習を学ぶ上では避けて通れない線形代数学の復習にも軽く触れておきます
