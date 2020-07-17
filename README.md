@@ -26,7 +26,7 @@
   <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/activation_prime" alt="活性化関数導関数" width="400px">
 </div>
 <div align="center">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/tanh_prime.png" alt="tanh導関数導出過程" width="800px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/tanh_prime.png" alt="tanh導関数導出過程" width="600px">
 </div>
 
 <a id="neuralnet"></a>
