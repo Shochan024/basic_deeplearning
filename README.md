@@ -23,7 +23,7 @@
 ニューロンから次のニューロンに信号が伝達することを発火と言います。活性化関数は、この発火を数学的にモデル化した関数になります。機械学習には欠かせない活性化関数について、様々な切り口で学んでいきます
 <div align="center">
   <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/activation.png" alt="活性化関数" width="400px">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/activation_prime" alt="活性化関数導関数" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/activation_prime.png" alt="活性化関数導関数" width="400px">
 </div>
 <div align="center">
   <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/02/tanh_prime.png" alt="tanh導関数導出過程" width="800px" style="object-fit:cover;">
@@ -40,6 +40,13 @@
 <a id="learningalg"></a>
 # 4. 学習アルゴリズム
 機械学習における”学習”の実態部分について学びます。データとモデルによる予測結果のギャップを定量化し、その差を最小化する最適化問題を考えます。最適化問題を解く際に登場する微分法の確認もしながらゆっくりと学んでいきましょう
+<div align="center">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/anim.gif" alt="活性化関数" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/dc.gif" alt="活性化関数導関数" width="400px">
+</div>
+<div align="center">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/grad.png" alt="tanh導関数導出過程" width="800px" style="object-fit:cover;">
+</div>
 
 <a id="examples"></a>
 # 5. 具体的な例
