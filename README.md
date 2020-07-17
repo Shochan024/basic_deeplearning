@@ -13,6 +13,11 @@
 # 1. パーセプロトン
 複雑で難しそうに思えるDeep Learningも、一つ一つ見ていくと意外とシンプルです。Deep Learningの入り口、ニューラルネットワークの元となったパーセプトロンについて学びます
 
+<div>
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/01/multi_perceptron.png>
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/01/perceptron.png>
+</div>
+
 <a id="activation"></a>
 # 2. 活性化関数
 ニューロンから次のニューロンに信号が伝達することを発火と言います。活性化関数は、この発火を数学的にモデル化した関数になります。機械学習には欠かせない活性化関数について、様々な切り口で学んでいきます
