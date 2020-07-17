@@ -14,8 +14,8 @@
 複雑で難しそうに思えるDeep Learningも、一つ一つ見ていくと意外とシンプルです。Deep Learningの入り口、ニューラルネットワークの元となったパーセプトロンについて学びます
 
 <div>
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/01/perpeptron.png" , alt="パーセプトロン" , width="400px">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/01/multi_perceptron.png" , alt="多層パーセプトロン" , width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/01/perpeptron.png" , alt="パーセプトロン" , width="300px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/01/multi_perceptron.png" , alt="多層パーセプトロン" , width="300px">
 </div>
 
 <a id="activation"></a>
