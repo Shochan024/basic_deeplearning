@@ -33,19 +33,19 @@
 # 3. ニューラルネットワーク
 本講義の本題、ニューラルネットワークについて学びます。パーセプトロンとの違いや、その演算方法、実装方法を学びます。機械学習を学ぶ上では避けて通れない線形代数学の復習にも軽く触れておきます
 <div align="center">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/03/dot.png" alt="パーセプトロン" width="400px">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/03/neuralnet.png" alt="多層パーセプトロン" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/03/dot.png" alt="内積" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/03/neuralnet.png" alt="ニューラルネットの伝播" width="400px">
 </div>
 
 <a id="learningalg"></a>
 # 4. 学習アルゴリズム
 機械学習における”学習”の実態部分について学びます。データとモデルによる予測結果のギャップを定量化し、その差を最小化する最適化問題を考えます。最適化問題を解く際に登場する微分法の確認もしながらゆっくりと学んでいきましょう
 <div align="center">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/anim.gif" alt="活性化関数" width="400px">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/dc.gif" alt="活性化関数導関数" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/anim.gif" alt="線形回帰のFitting" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/dc.gif" alt="誤差関数" width="400px">
 </div>
 <div align="center">
-  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/grad.png" alt="tanh導関数導出過程" width="800px" style="object-fit:cover;">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/04/grad.png" alt="勾配ベクトル" width="400px" style="object-fit:cover;">
 </div>
 
 <a id="examples"></a>
@@ -67,3 +67,5 @@
 <a id="fine_tuning"></a>
 # 9. 転移学習/Fine Tuning
 前回は、多Classで特徴量の多いテーマを扱いました。そう言った性質から、学習にかなりの時間を要すること、汎化性能の高いモデルがなかなかできにくいこと、似たような分類モデルの横展開のしにくさを感じた方は多いと思います。今回は、こう言った問題を緩和する方法を学びます
+
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/09/teni.png" alt="転移学習" width="400px" style="object-fit:cover;">
