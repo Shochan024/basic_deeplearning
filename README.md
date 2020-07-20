@@ -55,6 +55,10 @@
 <a id="backpropergation"></a>
 # 6. 誤差逆伝播法
 これまでの微分の方法論では数値微分を用いてきましたが、数値微分は計算量が多く、効率がよくありません。それが原因で学習速度が非常に遅かったように思います。今回学ぶ誤差逆伝播法( 別名BackPropagation Model )は、微分対象の変数以外は一旦定数とみなすという偏微分法の性質を利用し、計算コストを大幅にカットする方法です
+<div align="center">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/06/bp01.png" alt="活性化関数" width="400px">
+  <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/06/bp02.png" alt="活性化関数導関数" width="400px">
+</div>
 
 <a id="convolution_and_pooling"></a>
 # 7. 畳み込み層/Pooling層
