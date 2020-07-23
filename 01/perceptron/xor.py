@@ -20,8 +20,6 @@ def XOR( x_1 , x_2 ):
 def test( GATE ):
     for i in [0,1]:
         for j in [0,1]:
-            #print( i,j,GATE( i , j ) )
             print( "x_1={},x_2={} : y={}".format( i , j, step( x=GATE( i , j ) , theta=0.8 ) ) )
-            #print( "x_1={},x_2={} : u={}".format( i , j, GATE( i , j ) ) )
 
 test( GATE=XOR )
