@@ -2,9 +2,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def relu( x ):
-    return np.where( x >= 0 , x , 0 )
-
 def mish( x ):
     soft_plus = np.log( 1 + np.exp( x ) )
     return x * np.tanh( soft_plus )
