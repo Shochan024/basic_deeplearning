@@ -62,7 +62,7 @@
 
 <a id="convolution_and_pooling"></a>
 # 7. 畳み込み層/Pooling層
-画像認識では、同じオブジェクトを意味する画像でも位置ずれやエッジの差異が大きなノイズとなり得ます。それが原因で、予測精度に悪影響を及ぼすことは珍しくありません。そう言ったノイズを緩和する方法が今回学ぶ内容となります
+画像認識では、同じオブジェクトを意味する画像でも位置ずれやエッジの差異が大きなノイズとなり得ます。それが原因で、予測精度に悪影響を及ぼすことは珍しくありません。そう言ったノイズを緩和する方法が今回学ぶ内容となります。ここから先は、Kerasを使った本格的な実装に移ります
 <div align="center">
   <img src="http://web.sfc.keio.ac.jp/~t13073si/basic_deeplearning/07/convolution.png" alt="畳み込み層" width="600px" style="object-fit:cover;">
 </div>
