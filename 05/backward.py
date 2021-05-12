@@ -26,9 +26,11 @@ def E_prime( y , t ):
 def forward( X1 ):
     global W2
     global W3
-    z1 = X1.dot( W2 )
+    z1 = np.dot( W2 , X1 )
+    print( z1 )
+    sys.exit()
     X2 = activate( u=z1 )
-    z2 = X2.dot( W3 )
+    z2 = np.dot( W3 , X2 )
     X3 = softmax( x=z2 )
 
     return X3 , z2
@@ -37,41 +39,62 @@ def backward( y , t , z , x ):
     global W2
     global W3
     dout = E_prime( y=y , t=t )
-    grad_W3 = np.dot( z.T , dout )
-    d_hidden = np.dot( dout , W3.T ) * activate_prime( u=z )
+    grad_W3 = np.dot( z , dout.T )
+
+    d_hidden = np.dot( W3.T , dout ) * activate_prime( u=z )
     grad_W2 = np.dot( x.T , d_hidden )
 
-    W2 -= 0.001 * grad_W2
-    W3 -= 0.001 * grad_W3
+    W2 -= 0.0001 * grad_W2
+    W3 -= 0.0001 * grad_W3
 
-def learn( x , t , epochs=100 ):
+def learn( epochs=100 ):
+    global T
+    global X1
+    global W2
+    global W3
     earray = []
     for i in range( epochs ):
-        y , z = forward( X1=x )
-        e = E( y=y , t=t )
-        backward( y=y , t=t , z=z , x=x )
+
+        z1 = np.dot( W2 , X1 )
+        X2 = activate( u=z1 )
+        z2 = np.dot( W3 , X2 )
+        y = softmax( x=z2 )
+        e = E( y=y , t=T )
+
+
+        
+        dout = E_prime( y=y , t=T )
+        grad_W3 = np.dot( X2 , dout.T )
+
+        d_hidden = np.dot( W3.T , dout ) * activate_prime( u=z1 )
+        grad_W2 = np.dot( X1 , d_hidden.T )
+
+        W2 -= 0.0001 * grad_W2.T
+        W3 -= 0.0001 * grad_W3.T
         earray.append( e )
 
     plt.xlabel("epochs")
     plt.ylabel("error")
     plt.grid()
     plt.plot( np.arange( 0 , epochs , 1 ) , earray )
-    plt.show()
+    plt.savefig("check.png")
 
 
 #One Hot
 T = np.array([
     [1,0],
-])
+    [0,1],
+    [0,1],
+    [1,0],
+    [1,0]
+]).T
 X1 = np.array([
-    [0.3,0.2],
-])
-W2 = np.array([
-    [0.1,0.3],
-    [0.2,0.4]
-])
-W3 = np.array([
-    [0.1,0.3],
-    [0.2,0.4]
-])
-learn( x=X1 , t=T , epochs=20000 )
+    [300,0],
+    [-200,500],
+    [-300,100],
+    [800,-100],
+    [100,-500]
+]).T
+W2 = np.random.randn( 5,2 )
+W3 = np.random.randn( 2,5 )
+learn( epochs=50000 )
